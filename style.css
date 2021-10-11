@@ -1,0 +1,177 @@
+*{
+    padding: 0 auto;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:rgb(250, 250, 250)
+    max-width: 1000px;
+   
+    margin: 20px 10px;
+    
+}
+.header{
+    padding: 15px ;
+    margin-left: 27%;
+    margin-top:50px ;
+    
+}
+ .header h1{
+    color: black ;
+    text-align: center;
+    padding-right: 32%;
+    font-family: cursive;
+    font-size:2rem ;
+}
+.a{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+.row {
+    width: 100%;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+
+
+
+
+.body {
+    text-align: center;
+}
+.body img {
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+     border-radius: 50%;
+  
+    
+    
+}
+img:hover{
+    animation: rotation 2s  linear;
+    animation-delay: 4;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.desc {
+    background-color: honeydew;
+    color: gray;
+    border-radius: 5px;
+    
+}
+.name {
+    background:white;
+    color: gray;
+    padding: 15px;
+    font-size: 1 rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.desc>p {
+    font-size: 0.9rem;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 45%;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  
+}
+
+
+
+.card{
+    padding: 20px 10px;
+    margin-left: 80px;
+    transition: .6s;
+}
+.card:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+  
+
+
+
+
